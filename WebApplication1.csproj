@@ -167,6 +167,21 @@
     <Content Include="Views\Home\mis2000lab.cshtml" />
     <Content Include="Views\MVC\Index.cshtml" />
     <Content Include="Views\Lesson1\Index.cshtml" />
+    <Content Include="Views\Lesson1\Index2.cshtml" />
+    <Content Include="Views\Lesson1\Index3.cshtml" />
+    <Content Include="Views\Lesson1\Index3A.cshtml" />
+    <Content Include="Views\Lesson1\Index4.cshtml" />
+    <Content Include="Views\Lesson1\Index5.cshtml" />
+    <Content Include="Views\Lesson1\Index6.cshtml" />
+    <Content Include="Views\Lesson1\Index7.cshtml" />
+    <Content Include="Views\Lesson1\Index7for.cshtml" />
+    <Content Include="Views\Lesson1\Index7Request.cshtml" />
+    <Content Include="Views\Lesson1\Index8.cshtml" />
+    <Content Include="Views\Lesson1\Index90IsPost.cshtml" />
+    <Content Include="Views\Lesson1\Index91Add.cshtml" />
+    <Content Include="Views\Lesson1\Index92Array.cshtml" />
+    <Content Include="Views\Lesson1\Index93Dictionary.cshtml" />
+    <Content Include="Views\Lesson1\IndexHello.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,0 +1,34 @@
+﻿@model WebApplication2017_MVC_Starter.Models.Class1  
+
+@*
+    // 檢視畫面上的第一列（model）與 Model，有何不同？？
+    // @Model is "a property of the view" that refers to the model that was passed to the view from the controller.
+    // This property is strongly typed based on the data type specified in the @model directive at the top of the view.
+    // ***  @model occurs "only once" and specifies the "data type" of the model.
+    // ***  @Model allows you to reference "the value for the model" passed to the view.
+*@
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index4 - 第一次搭配類別檔</title>
+</head>
+<body>
+    <div>
+        Index4 - 第一次搭配類別檔 ( / Models/Class1.cs檔)
+
+
+        <br /><br /><br />
+        <h3> @Model.UserName </h3>
+        <!--  我自己的說法：
+        我要從上面第一列宣告的 model裡面（也就是Class1類別），取得「.UserName屬性」的值 -->
+
+    </div>
+</body>
+</html>
